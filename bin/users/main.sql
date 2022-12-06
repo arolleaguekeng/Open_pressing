@@ -3,7 +3,7 @@
 SET ECHO OFF
 SET VERIFY OFF
 PROMPT******************** ALTER SESSION AND SET XEPDB1*************************
-ALTER SESSION set container=xepdb1;
+
 PROMPT 
 PROMPT specify password for opp as parameter 1:
 DEFINE pass     = opp
@@ -21,7 +21,7 @@ PROMPT specify log path as parameter 5:
 DEFINE log_path = logs/
 PROMPT
 PROMPT specify connect string as parameter 6:
-DEFINE connect_string     = //localhost:1521/xepdb1
+DEFINE connect_string     = //localhost:1521
 PROMPT
 PROMPT********************write in log path*************************
 DEFINE spool_file = &log_path.cvm_main.log
