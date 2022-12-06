@@ -61,6 +61,6 @@ GRANT execute ON sys.dbms_stats TO cvm;
 REM =======================================================
 REM create cvm schema objects
 REM =======================================================
-PROMPT********************create cvm schema objects*************************
-CONNECT cvm/&pass@&connect_string
+PROMPT********************create opp schema objects*************************
+CONNECT opp/&pass@&connect_string
 
