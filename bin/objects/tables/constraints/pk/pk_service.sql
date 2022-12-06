@@ -1,0 +1,1 @@
+PRIMARY KEY (id_service)

@@ -1,5 +1,1 @@
-CREATE TABLE offers(
-    offer_id VARCHAR(8),
-    pressing_id VARCHAR(8),
-    price FLOAT
-);
+PRIMARY KEY (id_type_attribut)
