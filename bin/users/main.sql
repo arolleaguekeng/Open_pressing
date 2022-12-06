@@ -54,7 +54,7 @@ GRANT CREATE SYNONYM, CREATE DATABASE LINK, RESOURCE , UNLIMITED TABLESPACE TO c
 ------------------------------------------------------------------------------------
 
 PROMPT********************connection to SYDBA*************************
-CONNECT sys/&pass_sys@&connect_string AS SYSDBA;
+CONNECT sys/&pass_sys AS SYSDBA;
 PROMPT********************grant execute on user*************************
 GRANT execute ON sys.dbms_stats TO cvm;
 
