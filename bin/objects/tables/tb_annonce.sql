@@ -1,7 +1,8 @@
-CREATE TABLE pressings(
-    pressing_id VARCHAR(8),
-    responsable_id VARCHAR(8),
-    pressing_phone VARCHAR(20),
-    pressing_name VARCHAR(20),
-    created_at TIMESTAMP
-);
+CREATE TABLE Annonces (
+  id_annonce               varchar(8) NOT NULL, 
+  image                    binary(100), 
+  date_debut               timestamp NULL, 
+  date_fin                 timestamp NULL, 
+  Pressingsid_pressing     varchar(8) NOT NULL, 
+  utlisateurid_utilisateur varchar(8) NOT NULL, 
+  );

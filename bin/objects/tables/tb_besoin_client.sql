@@ -1,8 +1,8 @@
-CREATE TABLE needs(
-    need_id VARCHAR(8),
-    client_id VARCHAR(8),
-    offer_id VARCHAR(8),
-    need_type VARCHAR(60),
-    time_limit TIMESTAMP
-    created_at TIMESTAMP
+CREATE TABLE BesoinClient (
+  id_besoin_client         varchar(8) NOT NULL, 
+  Adresseid_adress         varchar(8) NOT NULL, 
+  Adresseid_adress2        varchar(8) NOT NULL, 
+  Clientsid_client         varchar(8) NOT NULL, 
+  Pressingsid_pressing     varchar(8) NOT NULL, 
+  utlisateurid_utilisateur varchar(8) NOT NULL, 
 );

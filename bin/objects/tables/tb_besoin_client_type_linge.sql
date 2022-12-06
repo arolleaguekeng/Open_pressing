@@ -1,8 +1,3 @@
-CREATE TABLE localisation_pressing(
-    localisation_id VARCHAR(8),
-    coordinate_x VARCHAR(8),
-    coordinate_y VARCHAR(20),
-    client_id VARCHAR(8),
-    created_at TIMESTAMP
-);
-
+CREATE TABLE BesoinClient_TypeLinge (
+  TypeLingeid_type_linge       varchar(8) NOT NULL, 
+  BesoinClientid_besoin_client varchar(8) NOT NULL);

@@ -1,7 +1,5 @@
-CREATE TABLE announces(
-    announce_id VARCHAR(8),
-    pressing_id VARCHAR(8),
-    start_time TIMESTAMP,
-    end_time TIMESTAMP,
-    created_at TIMESTAMP
-);
+CREATE TABLE Adresse (
+  ville     varchar(25), 
+  id_adress varchar(8) NOT NULL, 
+  quartier  varchar(25), 
+  );

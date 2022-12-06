@@ -1,8 +1,6 @@
-CREATE TABLE history(
-    history_id VARCHAR(8),
-    client_id VARCHAR(8),
-    need_id VARCHAR(8),
-    pressing_id VARCHAR(8),
-    created_at TIMESTAMP
-);
+CREATE TABLE Offres (
+  type_offre             varchar(25), 
+  montant_offre          varchar(25), 
+  Servicesid_service     varchar(8) NOT NULL, 
+  TypeLingeid_type_linge varchar(8) NOT NULL);
 

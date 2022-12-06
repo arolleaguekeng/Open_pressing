@@ -1,5 +1,4 @@
-CREATE TABLE offers(
-    offer_id VARCHAR(8),
-    pressing_id VARCHAR(8),
-    price FLOAT
+CREATE TABLE Attributs (
+  id_type_attribut            varchar(8) NOT NULL, 
+  TypeServicesid_type_service varchar(8) NOT NULL, 
 );

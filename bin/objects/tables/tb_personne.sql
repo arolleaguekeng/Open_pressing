@@ -1,8 +1,6 @@
-CREATE TABLE clothes(
-    clothe_id VARCHAR(8),
-    need_id VARCHAR(8),
-    clothe_color VARCHAR(25),
-    clothe_type VARCHAR(25),
-    clothe_picture VARCHAR(255),
-    created_at TIMESTAMP
+CREATE TABLE Personne (
+  id_personne                         varchar(8) NOT NULL, 
+  PersonnePhysiqueid_PersonnePhysique varchar(28) NOT NULL, 
+  Clientsid_client                    varchar(8) NOT NULL, 
+  Adresseid_adress                    varchar(8) NOT NULL, 
 );
