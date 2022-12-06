@@ -1,3 +1,3 @@
 lsnrctl start LISTENER
-sqlplus sys/god as sysdba @main
+sqlplus sys/god as sysdba @main.sql
 
