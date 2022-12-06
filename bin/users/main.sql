@@ -15,7 +15,7 @@ PROMPT specify temporary tablespace for cvm as parameter 3:
 DEFINE ttbs     = temp
 PROMPT 
 PROMPT specify password for SYS as parameter 4:
-DEFINE pass_sys = pass
+DEFINE pass_sys = god
 PROMPT 
 PROMPT specify log path as parameter 5:
 DEFINE log_path = logs/
