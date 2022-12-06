@@ -1,8 +1,4 @@
 
---@constrains.unique
-
-
-
 --@constraints.Foreign Key
 PROMPT******************** add constrains_fk_academic_exp*************************
 @objects/tables/constraints/fk/fk_adresse_besoin_client
