@@ -1,0 +1,2 @@
+ALTER TABLE VaeleurAttribut ADD CONSTRAINT FKVaeleurAtt933273 FOREIGN KEY (Attributsid_type_attribut) REFERENCES Attributs (id_type_attribut);
+ALTER TABLE VaeleurAttribut ADD CONSTRAINT FKVaeleurAtt216521 FOREIGN KEY () REFERENCES Offres ();

@@ -1,7 +1,2 @@
-CREATE TABLE pressings(
-    pressing_id VARCHAR(8),
-    responsable_id VARCHAR(8),
-    pressing_phone VARCHAR(20),
-    pressing_name VARCHAR(20),
-    created_at TIMESTAMP
-);
+ALTER TABLE Annonces ADD CONSTRAINT FKAnnonces246916 FOREIGN KEY (Pressingsid_pressing) REFERENCES Pressings (id_pressing);
+ALTER TABLE Annonces ADD CONSTRAINT FKAnnonces511164 FOREIGN KEY (utlisateurid_utilisateur) REFERENCES utlisateur (id_utilisateur);

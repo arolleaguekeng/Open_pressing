@@ -1,5 +1,1 @@
-CREATE TABLE offers(
-    offer_id VARCHAR(8),
-    pressing_id VARCHAR(8),
-    price FLOAT
-);
+ALTER TABLE Attributs ADD CONSTRAINT FKAttributs690278 FOREIGN KEY (TypeServicesid_type_service) REFERENCES TypeServices (id_type_service);

@@ -1,0 +1,2 @@
+ALTER TABLE Pressing_BesoinClient ADD CONSTRAINT FKPressing_B209895 FOREIGN KEY (Pressingsid_pressing) REFERENCES Pressings (id_pressing);
+ALTER TABLE Pressing_BesoinClient ADD CONSTRAINT FKPressing_B41258 FOREIGN KEY (BesoinClientid_besoin_client) REFERENCES BesoinClient (id_besoin_client);
