@@ -1,5 +1,5 @@
 CREATE TABLE Adresse (
-  ville     varchar(25), 
-  id_adress varchar(8) NOT NULL, 
-  quartier  varchar(25), 
+ville     varchar2(25), 
+  id_adress varchar2(8) NOT NULL, 
+  quartier  varchar2(25),
   );
